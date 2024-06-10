@@ -111,8 +111,24 @@ ul {
 @media screen and (max-width: 700px) {
 
     body {
-        padding: 0;
-        gap: 0;
+        padding:5vh;
+        gap: 0vh;
+       
+            margin: 0;
+            display: grid;
+           
+        
+            grid-template-columns: 100%;
+            grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+            grid-template-areas:
+                "Cont1"
+                "Cont2"
+                "Cont3"
+                "Cont4"
+                "Cont5"
+                "Cont6"
+        
+        
     }
 
     .Cont3 {
@@ -126,6 +142,16 @@ ul {
 
     p {
         font-size: 0.75rem;
+    }
+    .cont1b {
+
+        margin: 0px;
+       
+    }
+    .Cont2 {
+        margin-top: 5px;
+        grid-area: Cont2;
+    
     }
 
 }
